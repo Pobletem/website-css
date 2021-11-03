@@ -41,6 +41,12 @@ html {
   font-size: 28px; /* 18 / 16 = 1.125*/
   line-height: 28px;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 h1,
 h2,
 h3,
