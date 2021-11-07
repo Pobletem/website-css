@@ -21,6 +21,11 @@ img {
   max-width: 100%;
 }
 
+nav {
+  color: #449BBB;
+  background: #EEE;
+}
+
 figure {
   position: relative;
 }
@@ -28,7 +33,11 @@ figure {
 figcaption {
   max-width: 100%;
   color: #EEE;
-  background: rgba(20, 20, 20)
+  background: rgba(20, 20, 20);
+}
+body {
+  color: #EEE;
+  background: #BB6444;
 }
 
 h1,
@@ -37,6 +46,7 @@ h3,
 p {
   padding-bottom: 28px;
 }
+
 /* Begin site styles below */
 
 @media screen and (min-width: 600px) {
@@ -45,7 +55,7 @@ p {
     line-height: 18px;
   }
   figcaption {
-    color: #0000b3;
-    background: rgba(255, 255, 255)
+    color: #EEE;
+    background: #449BBB;
   }
 }
