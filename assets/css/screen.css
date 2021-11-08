@@ -7,21 +7,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* stylelint-enable */
 
-*{
+* {
   box-sizing: border-box;
 }
 html {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px; /* 18 / 16 = 1.125*/
   line-height: 24px;
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
 nav {
+  display: block;
   color: #449BBB;
   background: #EEE;
 }
