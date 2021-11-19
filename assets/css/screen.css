@@ -12,8 +12,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px; /* 18 / 16 = 1.125*/
-  line-height: 20px;
+  font-size: 1.125em; /* 18 / 16 = 1.125*/
+  line-height: 1.333333333333333em; /* 24 / 18 = 1.333333333333333em*/
 }
 
 body {
@@ -33,17 +33,17 @@ h2,
 h3,
 h4 {
   color: #EEE;
-  padding: 28px;
+  padding: 1.555555555555556em; /* 28 / 18 = 1.555555555555556*/
 }
 
 h1 {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
+  line-height: 1.166666666666667em; /* 28 / 24 = 1.166666666666667*/
 }
 
 h2 {
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 1.222222222222222em; /* 22 / 18 = 1.222222222222222*/
+  line-height: 1.090909090909091em; /* 24 / 22 = 1.090909090909091*/
 }
 
 li {
@@ -56,6 +56,8 @@ img {
 
 figure {
   position: relative;
+  padding-top: 0.6666666666666667em /* 12 / 18 = 0.6666666666666667*/;
+  padding-bottom: 0.6666666666666667em /* 12 / 18 = 0.6666666666666667*/ ;
 }
 
 figcaption {
@@ -66,10 +68,12 @@ figcaption {
 
 .programs {
   display: grid;
-  grid-gap: 12px;
-  gap: 12px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
+}
+
+.programs ul {
+  padding: 1.555555555555556em /* 28 / 18 = 1.555555555555556*/;
 }
 
 /* Begin site styles below */
