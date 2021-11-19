@@ -12,18 +12,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px; /* 18 / 16 = 1.125*/
+  font-size: 18px; /* 18 / 16 = 1.125*/
+  line-height: 20px;
+}
+
+body {
+  color: #EEE;
+  background: #BB6444;
+}
+
+nav {
+  display: flex;
+  color: #449BBB;
+  flex-direction: column;
+  background: #EEE;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #EEE;
+  padding: 28px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: 22px;
   line-height: 24px;
+}
+
+li {
+  list-style: circle;
 }
 
 img {
   max-width: 100%;
-}
-
-nav {
-  display: block;
-  color: #449BBB;
-  background: #EEE;
 }
 
 figure {
@@ -35,25 +63,18 @@ figcaption {
   color: #EEE;
   background: rgba(20, 20, 20);
 }
-body {
-  color: #EEE;
-  background: #BB6444;
-}
 
-h1,
-h2,
-h3,
-p {
-  padding-bottom: 28px;
+.programs {
+  display: grid;
+  grid-gap: 12px;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
 }
 
 /* Begin site styles below */
 
 @media screen and (min-width: 600px) {
-  html {
-    font-size: 16px;
-    line-height: 18px;
-  }
   figcaption {
     color: #EEE;
     background: #449BBB;
