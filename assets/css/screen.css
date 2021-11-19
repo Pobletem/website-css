@@ -26,6 +26,8 @@ nav {
   color: #449BBB;
   flex-direction: column;
   background: #EEE;
+  border: solid;
+  border-color: rgba(20, 20, 20);
 }
 
 h1,
@@ -37,6 +39,7 @@ h4 {
 }
 
 h1 {
+  background: rgba(20, 20, 20);
   font-size: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
   line-height: 1.166666666666667em; /* 28 / 24 = 1.166666666666667*/
 }
@@ -66,21 +69,52 @@ figcaption {
   background: rgba(20, 20, 20);
 }
 
-.programs {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
+footer {
+  background: rgba(20, 20, 20);
 }
 
-.programs ul {
+ul {
   padding: 1.555555555555556em /* 28 / 18 = 1.555555555555556*/;
 }
 
+#resume_content h3 {
+  background: rgba(20, 20, 20);
+  border-bottom: solid;
+  border-color: #EEE;
+}
+
+#resume-summary p {
+  padding: 1.555555555555556em /* 28 / 18 = 1.555555555555556*/;
+}
+
+.programs h2 {
+  background: rgba(20, 20, 20);
+  border-bottom: solid;
+  border-color: #EEE;
+}
+
+
 /* Begin site styles below */
 
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 750px) {
+
   figcaption {
     color: #EEE;
     background: #449BBB;
+  }
+
+  .programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #education ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
   }
 }
