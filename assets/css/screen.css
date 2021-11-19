@@ -97,7 +97,7 @@ ul {
 /* Begin site styles below */
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 46.875em) { /* 750 / 16 = 46.875*/
 
   figcaption {
     color: #EEE;
@@ -111,7 +111,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5em) { /* 1000 / 16 = */
   #education ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
