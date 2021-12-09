@@ -23,7 +23,6 @@ body {
 }
 
 nav {
-  display: flex;
   color: #449BBB;
   flex-direction: column;
   background: #EEE;
