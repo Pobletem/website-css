@@ -114,7 +114,9 @@ p {
   #resume-content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
+
 }
 
 @media screen and (min-width: 62.5em) { /* 1000 / 16 = */
