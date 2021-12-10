@@ -121,6 +121,10 @@ p {
     flex: 1 0 33%;
   }
 
+  .college {
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (min-width: 59.375em) { /* 950 / 16 = 59.375*/
