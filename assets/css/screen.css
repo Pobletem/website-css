@@ -110,12 +110,15 @@ p {
     flex-direction: row-reverse;
     flex: 0 0 33%;
   }
+
+  #resume-content {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 62.5em) { /* 1000 / 16 = */
   #education ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+
   }
 }
