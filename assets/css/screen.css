@@ -121,19 +121,16 @@ p {
     flex: 1 0 33%;
   }
 
+}
+
+@media screen and (min-width: 59.375em) { /* 950 / 16 = 59.375*/
   .college {
     display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
   .college li {
     width: 50%;
-  }
-
-}
-
-@media screen and (min-width: 62.5em) { /* 1000 / 16 = */
-  #education ul {
-
   }
 }
