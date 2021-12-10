@@ -75,7 +75,7 @@ footer {
 }
 
 ul {
-  padding: 1.555555555555556em /* 28 / 18 = 1.555555555555556*/;
+  padding: 1.555555555555556em  /*28 / 18 = 1.555555555555556*/;
 }
 
 p {
@@ -120,6 +120,12 @@ p {
   #resume-content article {
     flex: 1 0 33%;
   }
+
+  .college {
+    display: flex;
+    width: 100%;
+  }
+
 }
 
 @media screen and (min-width: 62.5em) { /* 1000 / 16 = */
